@@ -15,7 +15,11 @@
 
     <div id="app">
 
-        
+        <header>
+            <div class="image-container py-2 ms-4 d-flex align-items-center">
+                <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="Spotify Logo">
+            </div>
+        </header>
 
     </div>
 
