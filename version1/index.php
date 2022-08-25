@@ -21,6 +21,28 @@
             </div>
         </header>
 
+        <main>
+            <div class="row d-flex flex-wrap gap-4 justify-content-center pt-5">
+                <div class="col-2 album-card text-center">
+                    <div class="image-container">
+                        <img :src="imgUrl" alt="title">
+                    </div>
+
+                    <div class="title">
+                        {{ title }}
+                    </div>
+                    
+                    <div class="author">
+                        {{ author }}
+                    </div>
+
+                    <div class="year">
+                        {{ year }}
+                    </div>
+                </div>
+            </div>
+        </main>
+
     </div>
 
 </body>
